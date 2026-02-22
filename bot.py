@@ -13,6 +13,7 @@ def get_photo(message):
     with open(save_path, 'wb') as new_file:
         new_file.write(downloaded_file)
     bot.reply_to(message, 'Фотография сохранена.')
+    
     # обработку фотографии
     # бот пишет результат
 
